@@ -1,0 +1,22 @@
+{
+  "name": "temp-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "bot": "node bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "pino": "^10.3.1",
+    "ssh2": "^1.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
